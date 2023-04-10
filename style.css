@@ -1,0 +1,273 @@
+body{
+    background-image: url(img/0001.png);
+    background-size: 2000px;
+}
+
+
+.title{
+    color: rgba(0, 255, 187, 0.841);
+    text-align: center;
+   
+}
+
+
+.the_img{
+    border-radius: 35px;
+   height: 300px;
+   width:300px;
+   margin-left: 35px;
+   position: relative;
+   top: 75px;
+   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.35), 0 6px 20px 0 rgba(0, 0, 0, 0.35) ;
+   z-index:0;
+
+   
+}
+
+
+#the_img{
+
+    animation-name: zoomer1;
+    animation-duration:1s ;
+    animation-timing-function: ease-in;
+    animation-delay:0s ;
+    animation-fill-mode:none;
+    animation-iteration-count:infinite ;
+    animation-direction:normal ;
+    
+}
+
+
+#the_img1{
+  animation-name:zoomer2 ;
+  animation-duration:1s ;
+  animation-timing-function: ease-in;
+  animation-delay:1s ;
+  animation-fill-mode:none;
+  animation-iteration-count:infinite;
+  animation-direction:normal ;
+  
+}
+
+
+#the_img2{
+ animation-name: zoomer3;
+ animation-duration:1s ;
+ animation-timing-function:ease-in ;
+ animation-delay:2s ;
+ animation-fill-mode:none;
+ animation-iteration-count:infinite ;
+ animation-direction:normal;
+ 
+}
+
+
+@keyframes zoomer1{
+
+    20%{transform: scale(1.1);}
+
+}
+
+
+@keyframes zoomer2{
+
+    20%{transform: scale(1.1);}
+
+}
+
+
+@keyframes zoomer3{
+
+    20%{transform: scale(1.15);}
+    
+
+}
+
+
+.item_name{
+    color: rgba(0, 255, 187, 0.841);
+    position: absolute;
+    left: 425px;
+    top: 200px ;
+    z-index: 0;
+}
+
+
+.item_name1{
+    color:   rgba(0, 255, 187, 0.841);
+    position: absolute;
+    left: 425px;
+    top: 550px ;
+    z-index: 0;
+}
+
+
+.item_name2{
+    color:  rgba(0, 255, 187, 0.841);
+    position: absolute;
+    left: 425px;
+    top: 910px ;
+    z-index: 0;
+}
+
+
+.add_cart{
+    margin-left: 80px;
+    background-color:  rgba(8, 144, 108, 0.753);
+    color: aliceblue;
+    border-color: transparent;
+    height: 25px;
+    width:90px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+
+.add_cart:active{
+    background-color: rgba(13, 81, 63, 0.808);
+   
+}
+
+
+.add_cart:disabled{
+    background-color: rgba(8, 144, 108, 0.753);
+    color: aliceblue;
+    border-color: transparent;
+}
+
+.add_cart:disabled:active{
+    background-color:rgba(13, 81, 63, 0.808);
+}
+
+.cart{
+   
+    position: absolute;
+    bottom: 600px;
+    right: 200px;
+
+
+
+}
+
+
+#banana{
+    color: aliceblue;
+}
+
+
+.cart{
+    margin-left: 80px;
+    background-color: rgba(8, 144, 108, 0.753);
+    color: aliceblue;
+    border-color: transparent;
+    height: 25px;
+    width:150px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+.cart:active{
+    background-color:  rgba(13, 81, 63, 0.808);
+}
+
+
+.dbutt{
+    margin: 5px;
+}
+
+
+.text{color: white;
+    color:   rgba(0, 255, 187, 0.841);
+    font-size: 30px;
+    margin: 40px;
+}
+
+
+.text:hover{
+    transform: scale(1.2);
+
+    color: white;
+
+    transition-duration: 0.2s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+}
+
+
+.item{
+    margin-top: 50px;
+
+
+   
+}
+
+.item_name:hover{
+ color: white;
+
+ transition-delay: 0s;
+ transition-timing-function: ease-in-out;
+ transition-duration: 0.3s;
+}
+
+
+.item_name1:hover{
+    color: white;
+   
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+   }
+
+
+
+   .item_name2:hover{
+    color: white;
+   
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+   }
+
+
+   .dbutt{
+    
+    background-color:  rgba(8, 144, 108, 0.753);
+    color: aliceblue;
+    border-color: transparent;
+    height: 41px;
+    width:41px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 30px;
+    margin-left: 20px;
+    position: relative;
+    top: -3px;
+}
+
+
+.dbutt:hover{
+    color: black;
+    transition-duration: 0.3s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in
+}
+
+
+.dbutt:active{
+    background-color: rgba(13, 81, 63, 0.808);
+   
+}
+
+#the_c{
+ 
+
+    text-align: center;
+}
+
+
+.title1{
+    text-align: center;
+
+    color: rgba(0, 255, 187, 0.841);
+}
